@@ -43,12 +43,12 @@ Dieses PDF kann mit dem Ghostscript tool `gs` in ein PDF gewandelt werden.
 cd doc
 
 gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=Bodenplatine.pdf \
-"Bodenplatine Dimensions.pdf" \
-"Bodenplatine Placement TOP.pdf" \
-"Bodenplatine PCB: TOP Layer.pdf" \
-"Bodenplatine PCB: BOTTOM Layer.pdf" \
-"Bodenplatine TOP Paste.pdf" \
-"Bodenplatine TOP Solder Mask.pdf" \
-"Bodenplatine Drill Drawing.pdf"
+Bodenplatine-DIMENSIONS.pdf \
+Bodenplatine-BOM.pdf \
+Bodenplatine-Placement_TOP.pdf \
+Bodenplatine-TOP.pdf \
+Bodenplatine-BOTTOM.pdf \
+Bodenplatine-BOTTOM-Solder-Mask.pdf \
+Bodenplatine-TOP-Paste-Mask.pdf \
+Bodenplatine-Drill-Drawing.pdf \
 ```
-
