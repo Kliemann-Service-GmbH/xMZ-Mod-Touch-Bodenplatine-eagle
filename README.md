@@ -33,10 +33,10 @@ Format der CSV Datei für den Import:
 
 
 #Produktionsdaten
-## Boardlayout Dateien
+## Dokumentation Boardlayout Dateien
 
 Einige der wichtigsten Ebenen (Drill, Solder, Paste) wurden einzeln zusammen
-mit der "Document" Ebene (Layer 48) als PDF gedruckt.
+mit der "Document" Ebene (Layer 48) als PDF gedruckt (Siehe Script generate_documentaiont.scr).
 Dieses PDF kann mit dem Ghostscript tool `gs` in ein PDF gewandelt werden.
 
 ```
